@@ -1,5 +1,5 @@
 {
-  "name": "st4rzbot",
+  "name": "ApaJaBot",
   "version": "1.0.0",
   "description": "bot whatsapp lewat hp doang",
   "main": "index.js",
@@ -37,7 +37,7 @@
   "author": "Abdul Muttaqin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bintang73/botst4rz/issues"
+    "url": "https://github.com/ApaJaReal/BotApaJa/issues"
   },
-  "homepage": "https://github.com/Bintang73/botst4rz#readme"
+  "homepage": "https://github.com/BotApJA/BotApaJa#readme"
 }
