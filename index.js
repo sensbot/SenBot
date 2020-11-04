@@ -16,8 +16,8 @@ const BotName = 'ApaJa BOT ðŸ¤–'; // Nama Bot Whatsapp
 const instagramlu = 'GA PUNYA; // Nama Instagramlu cok
 const whatsapplu = '0813-2806-3545'; // Nomor whatsapplu cok
 const kapanbotaktif = '24 Jam'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/FsAlnxqz6y2BhCQi5ayCLG'; // OFFICIAL GRUP LU 1
-const grupch2 = 'https://chat.whatsapp.com/KLW3UlFfeaH36Ucm5zRfCz'; // OFFICIAL GRUP LU 2
+const grupch1 = 'https://chat.whatsapp.com/GrX1yGhNTywK3GjNz6CUha'; // OFFICIAL GRUP LU 1
+const grupch2 = 'https://chat.whatsapp.com/BJpuSD924asLs5i5cMS8Dc'; // OFFICIAL GRUP LU 2
 //
 const
 {
