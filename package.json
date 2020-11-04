@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bintang73/botst4rz.git"
+    "url": "git+https://github.com/ApaJaReal/BotApaJa"
   },
   "keywords": [
     "k"
@@ -39,5 +39,5 @@
   "bugs": {
     "url": "https://github.com/ApaJaReal/BotApaJa/issues"
   },
-  "homepage": "https://github.com/BotApJA/BotApaJa#readme"
+  "homepage": "https://github.com/ApaJaReal/BotApaJa#readme"
 }
