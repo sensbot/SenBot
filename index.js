@@ -13,7 +13,7 @@ const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
 //
 const BotName = 'ApaJa BOT ðŸ¤–'; // Nama Bot Whatsapp
-const instagramlu = 'GA PUNYA; // Nama Instagramlu cok
+const instagramlu = 'https://www.instagram.com/jokowi/?hl=id'; // Nama Instagramlu cok
 const whatsapplu = '0813-2806-3545'; // Nomor whatsapplu cok
 const kapanbotaktif = '24 Jam'; // Kapan bot lu aktif
 const grupch1 = 'https://chat.whatsapp.com/GrX1yGhNTywK3GjNz6CUha'; // OFFICIAL GRUP LU 1
