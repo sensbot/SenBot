@@ -67,7 +67,7 @@ conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @bintang_nur_pradana`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ApaJa`)
 })
 
 conn.on('message-new', async(m) =>
@@ -501,6 +501,24 @@ conn.sendMessage(id, 'kirim #ptl cewek/cowok\n\nContoh: #ptl cewek' ,MessageType
       let caption = imageMessage.caption.toLocaleLowerCase()
       const buffer = await conn.downloadMediaMessage(m) // to decrypt & use as a buffer
       if (caption == '#sticker')
+      {
+         const stiker = await conn.downloadAndSaveMediaMessage(m) // to decrypt & save to file
+
+         const
+         {
+            exec
+         } = require("child_process");
+         exec('cwebp -q 50 ' + stiker + ' -o temp/' + jam + '.webp', (error, stdout, stderr) =>
+         {
+            let stik = fs.readFileSync('temp/' + jam + '.webp')
+            conn.sendMessage(id, stik, MessageType.sticker)
+         });
+      }
+   }
+   {
+      let caption = imageMessage.caption.toLocaleLowerCase()
+      const buffer = await conn.downloadMediaMessage(m) // to decrypt & use as a buffer
+      if (caption == '#stiker')
       {
          const stiker = await conn.downloadAndSaveMediaMessage(m) // to decrypt & save to file
 
