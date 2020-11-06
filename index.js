@@ -12,12 +12,10 @@ const menu = require("./lib/menu.js");
 const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
 //
-const BotName = 'ApaJa BOT '; // Nama Bot Whatsapp
-const instagramlu = 'https://www.instagram.com/jokowi/?hl=id'; // Nama Instagramlu cok
+const BotName = 'ApaJa BOT 🤖'; // Nama Bot Whatsapp
+const instagramlu = 'https://instagram.com/bintang_nur_pradana'; // Nama Instagramlu cok
 const whatsapplu = '0813-2806-3545'; // Nomor whatsapplu cok
 const kapanbotaktif = '24 Jam'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/GrX1yGhNTywK3GjNz6CUha'; // OFFICIAL GRUP LU 1
-const grupch2 = 'https://chat.whatsapp.com/BJpuSD924asLs5i5cMS8Dc'; // OFFICIAL GRUP LU 2
 //
 const
 {
@@ -67,7 +65,7 @@ conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ApaJa`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @bintang_nur_pradana`)
 })
 
 conn.on('message-new', async(m) =>
@@ -515,6 +513,7 @@ conn.sendMessage(id, 'kirim #ptl cewek/cowok\n\nContoh: #ptl cewek' ,MessageType
          });
       }
    }
+
    if (messageType === MessageType.text)
    {
       let is = m.message.conversation.toLocaleLowerCase()
@@ -636,7 +635,7 @@ conn.sendMessage(id, 'kirim #ptl cewek/cowok\n\nContoh: #ptl cewek' ,MessageType
 
    if (text.includes("#quotes"))
    {
-      var url = 'https://jagokata.com/kata-bijak/acak.html'
+      var url = 'https://mhankbarbar.herokuapp.com/api/randomquotes'
       axios.get(url)
          .then((result) =>
          {
