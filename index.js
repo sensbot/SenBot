@@ -16,7 +16,7 @@ const BotName = 'SENSI BOT'; // Nama Bot Whatsapp
 const instagramlu = 'https://www.instagram.com/sensi.edtz_/'; // Nama Instagramlu cok
 const whatsapplu = '0859-6422-4017'; // Nomor whatsapplu cok
 const kapanbotaktif = '14 Jam'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/FsAlnxqz6y2BhCQi5ayCLG'; // OFFICIAL GRUP LU 1
+const grupch1 = 'https://chat.whatsapp.com/BUPViwCqyI83JVw34jgt1o'; // OFFICIAL GRUP LU 1
 const grupch2 = 'https://chat.whatsapp.com/KLW3UlFfeaH36Ucm5zRfCz'; // OFFICIAL GRUP LU 2
 //
 const
@@ -63,11 +63,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_sadboy.ig`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @ApaJa/SensiBot`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @ApaJa`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @ApaJa/SensiBot`)
 })
 
 conn.on('message-new', async(m) =>
