@@ -42,11 +42,6 @@ Sebelum lu jalanin sc nya install dulu lah.
 |       ✅       | Facebook Downloader              |
 |       ✅       | Wikipedia                        |
 |       ✅       | Say                              |
-|       ✅       | Info                             |
-|       ✅       | Donate                           |
+|       ✅       | Info/termux-whatsapp-bot)
 
-## Special Thanks to
-* [`termux-whatsapp-bot`](https://github.com/fdciabdul/termux-whatsapp-bot)
 
-### Donate
-* [`Saweria`](https://saweria.co/donate/bintangnurpradana)
