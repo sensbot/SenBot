@@ -1,5 +1,5 @@
 # BotApaJa
-BOT WHATSAPP HP BINTANG NUR PRADANA
+BOT WHATSAPP HP ApaJa Recode Dari Bintang Nur Pradana
 
 ### Alat dan Bahan
 Siapin alat dan bahannya.
